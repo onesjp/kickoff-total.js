@@ -1,0 +1,17 @@
+.git
+.gitignore
+.DS_Store
+README.md
+
+# Docker
+Dockerfile
+docker-compose.yml
+
+# Debug files
+config-debug
+debug.js
+test.js
+tmp
+
+# Dependency directory
+node_modules

@@ -1,0 +1,9 @@
+.vscode
+.DS_Store
+.b
+debug.pid
+certificate.crt
+privatekey.key
+tmp/
+logs/
+node_modules/

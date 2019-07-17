@@ -1,0 +1,43 @@
+{
+  "name": "kickoff-total.js",
+  "version": "1.0.0",
+  "description": "kickoff for total.js",
+  "main": "release.js",
+  "scripts": {
+    "start": "node release.js",
+    "test": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/onesjp/kickoff-total.js.git"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "keywords": ["total.js", "standatd", "docker"],
+  "author": "onesjp",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/onesjp/kickoff-total.js/issues"
+  },
+  "homepage": "https://github.com/onesjp/kickoff-total.js#readme",
+  "dependencies": {
+    "total.js": "latest"
+  },
+  "devDependencies": {
+    "standard": "^13.0.2"
+  },
+  "standard": {
+    "globals": [
+      "CONFIG",
+      "ROUTE",
+      "RESTBuilder"
+    ],
+    "ignore": [
+      "/view/",
+      "/public/",
+      "/tmp/",
+      "/logs/"
+    ]
+  }
+}
