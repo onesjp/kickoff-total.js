@@ -14,7 +14,11 @@
   "engines": {
     "node": ">=8.0.0"
   },
-  "keywords": ["total.js", "standatd", "docker"],
+  "keywords": [
+    "total.js",
+    "standatd",
+    "docker"
+  ],
   "author": "onesjp",
   "license": "MIT",
   "bugs": {
@@ -22,7 +26,7 @@
   },
   "homepage": "https://github.com/onesjp/kickoff-total.js#readme",
   "dependencies": {
-    "total.js": "latest"
+    "total.js": "^3.2.4"
   },
   "devDependencies": {
     "standard": "^13.0.2"
